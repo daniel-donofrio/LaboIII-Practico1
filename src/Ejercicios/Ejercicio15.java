@@ -1,6 +1,6 @@
 package Ejercicios;
 import java.util.Scanner;
-
+//comentario para verificar
 public class Ejercicio15 {
     public void numeros(){
         int numeros[];
