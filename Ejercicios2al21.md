@@ -85,6 +85,14 @@ Su propósito es ser el punto desde el cual comienza la ejecución del programa.
 
 Un constructor sirve para inicializar el objeto y establecer sus propiedades y valores predeterminados. Tiene el mismo nombre que la clase y no cuenta con ningún valor de retorno, ya que su función principal es inicializar el objeto y no devolver ningún valor.
 
+## Ejercicio 14
+
+Existen varias diferencias entre una clase abstracta y una interfaz:
+
+    - Una clase abstracta puede heredar o extender cualquier clase (independientemente de que esta sea abstracta o no), mientras que una interfaz solamente puede extender o implementar otras interfaces.
+    - Una clase abstracta puede heredar de una sola clase (abstracta o no) mientras que una interfaz puede extender varias interfaces de una misma vez.
+    - Una clase abstracta puede tener métodos que sean abstractos o que no lo sean, mientras que las interfaces sólo y exclusivamente pueden definir métodos abstractos.
+
 ## Ejercicio 17
 
 No consideramos que el código sea correcto ya que de la forma que se encuentra planteado cualquiera podría acceder al estado del objeto.
