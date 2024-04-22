@@ -2,7 +2,7 @@ package Ejercicios;
 import java.util.Scanner;
 
 public class Ejercicio16 {
-    public static void main(String[] args) {
+    public void binario() {
         int numero;
         Scanner numeroScanner = new Scanner(System.in);
         System.out.print("Ingrese un numero decimal: ");

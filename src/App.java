@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import Ejercicios.Ejercicio15;
+import Ejercicios.Ejercicio16;
 public class App {
     public static void main(String[] args) throws Exception {
         int opcion;
@@ -23,7 +24,8 @@ public class App {
                     
                     break;
                 case 2:
-                    
+                    Ejercicio16 ejer16 = new Ejercicio16();
+                    ejer16.binario();
                     break;
                 case 3:
                     
