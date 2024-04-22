@@ -12,7 +12,7 @@ public class Ejercicio22 {
     }
     
    public void mostrarVariable(){
-        System.out.println("Usded se llama " + this.nombre + " y tiene " + this.edad + "años");
+        System.out.println("Usded se llama " + this.nombre + " y tiene " + this.edad + " años");
     }
 
         
