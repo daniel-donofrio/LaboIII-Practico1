@@ -14,7 +14,7 @@ public class App {
             System.out.println("7 - Ejercicio 25");
             System.out.println("8 - Ejercicio 26");
             System.out.println("9 - Salir");
-            System.out.println("Ingrese el numero de ejercicio: ");
+            System.out.print("Ingrese el numero de ejercicio: ");
             Scanner opcionScanner = new Scanner(System.in);
             opcion = opcionScanner.nextInt();
             switch (opcion) {
@@ -26,6 +26,7 @@ public class App {
                 case 2:
                     Ejercicio16 ejer16 = new Ejercicio16();
                     ejer16.binario();
+
                     break;
                 case 3:
                     
