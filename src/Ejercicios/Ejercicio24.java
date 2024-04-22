@@ -4,9 +4,6 @@ import javax.print.DocFlavor.STRING;
 
 public class Ejercicio24 {
 
-    //Escriba un programa que defina una clase con una variable de instancia privada y
-    //métodos públicos para establecer y obtener el valor de la variable.
-
     private String nombre;
     private int edad;
     private double altura;
