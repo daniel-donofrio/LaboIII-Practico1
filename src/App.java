@@ -52,7 +52,7 @@ public class App {
                     System.out.println("Su nombre es " +nombre+ ", tiene " +edad+ " años y su altura es  " +altura+ " metros" );
 
                     ejer24.setnombre("Daniel D'Onofrio");
-                    ejer24.setedad(36);
+                    ejer24.setedad(37);
                     ejer24.setaltura(1.78);
                     
                     System.out.println("Su nombre es " +ejer24.getnombre()+ ", tiene " +ejer24.getedad()+ " años y su altura es  " +ejer24.getaltura()+ " metros" );
