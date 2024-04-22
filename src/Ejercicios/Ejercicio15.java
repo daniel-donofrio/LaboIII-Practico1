@@ -28,5 +28,6 @@ public class Ejercicio15 {
         for (int i = 0; i < numeros.length; i++) {
             System.out.print(numeros[i] + " ");
         }
+        System.out.println();
     }
 }
