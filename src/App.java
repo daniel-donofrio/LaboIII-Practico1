@@ -35,13 +35,29 @@ public class App {
 
                     break;
                 case 3:
-                    
+                    Ejercicio22 ejer22 = new Ejercicio22("Gabriel Ponce",42);
+                    ejer22.mostrarVariable();               
                     break;
                 case 4:
-                    
+                    Ejercicio23 ejer23 = new Ejercicio23(4, 8);
+                    ejer23.devolverResultado();
                     break;
                 case 5:
+                    Ejercicio24 ejer24 = new Ejercicio24("Gabriel Ponce", 42, 1.82);
                     
+                    String nombre = ejer24.getnombre();
+                    int edad = ejer24.getedad();
+                    double altura = ejer24.getaltura();
+
+                    System.out.println("Su nombre es " +nombre+ ", tiene " +edad+ " años y su altura es  " +altura+ " metros" );
+
+                    ejer24.setnombre("Daniel D'Onofrio");
+                    ejer24.setedad(36);
+                    ejer24.setaltura(1.78);
+                    
+                    System.out.println("Su nombre es " +ejer24.getnombre()+ ", tiene " +ejer24.getedad()+ " años y su altura es  " +ejer24.getaltura()+ " metros" );
+
+
                     break;
                 case 6:
                     
