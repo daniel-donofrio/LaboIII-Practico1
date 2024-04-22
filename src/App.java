@@ -66,7 +66,9 @@ public class App {
                     ejer26.mostrarvariable();
                     break;
                 default:
-                    System.out.println("Opcion invalida. Ingrese un numero entre 1 y 7");
+                    if (opcion != 8) {
+                        System.out.println("Opcion invalida. Ingrese un numero entre 1 y 7");
+                    }
                     break;
             }
         } while (opcion != 8);
