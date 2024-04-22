@@ -11,7 +11,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         int opcion;
         do {
-            
             System.out.println("1 - Ejercicio 15");
             System.out.println("2 - Ejercicio 16");
             System.out.println("3 - Ejercicio 22");
@@ -67,6 +66,7 @@ public class App {
                     ejer26.mostrarvariable();
                     break;
                 default:
+                    System.out.println("Opcion invalida. Ingrese un numero entre 1 y 7");
                     break;
             }
         } while (opcion != 8);
