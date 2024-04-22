@@ -1,7 +1,5 @@
 package Ejercicios;
 
-import javax.print.DocFlavor.STRING;
-
 public class Ejercicio24 {
 
     private String nombre;
