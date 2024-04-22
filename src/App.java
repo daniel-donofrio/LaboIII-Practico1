@@ -1,6 +1,12 @@
 import java.util.Scanner;
 import Ejercicios.Ejercicio15;
 import Ejercicios.Ejercicio16;
+import Ejercicios.Ejercicio22;
+import Ejercicios.Ejercicio23;
+import Ejercicios.Ejercicio24;
+import Ejercicios.Ejercicio25;
+import Ejercicios.Ejercicio26;
+
 public class App {
     public static void main(String[] args) throws Exception {
         int opcion;
