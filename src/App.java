@@ -17,9 +17,9 @@ public class App {
             System.out.println("3 - Ejercicio 22");
             System.out.println("4 - Ejercicio 23");
             System.out.println("5 - Ejercicio 24");
-            System.out.println("7 - Ejercicio 25");
-            System.out.println("8 - Ejercicio 26");
-            System.out.println("9 - Salir");
+            System.out.println("6 - Ejercicio 25");
+            System.out.println("7 - Ejercicio 26");
+            System.out.println("8 - Salir");
             System.out.print("Ingrese el numero de ejercicio: ");
             Scanner opcionScanner = new Scanner(System.in);
             opcion = opcionScanner.nextInt();
@@ -57,20 +57,18 @@ public class App {
                     
                     System.out.println("Su nombre es " +ejer24.getnombre()+ ", tiene " +ejer24.getedad()+ " años y su altura es  " +ejer24.getaltura()+ " metros" );
 
-
-                    break;
+                    break; 
                 case 6:
-                    
+                    int resultado = Ejercicio25.calcularResta(8,9);
+                    System.out.println("El resultado de la resta es igual a: " + resultado);
                     break;
                 case 7:
-                    
-                    break;
-                case 8:
-                    
+                    Ejercicio26 ejer26 = new Ejercicio26(3.1416f);
+                    ejer26.mostrarvariable();
                     break;
                 default:
                     break;
             }
-        } while (opcion != 9);
+        } while (opcion != 8);
     }
 }
